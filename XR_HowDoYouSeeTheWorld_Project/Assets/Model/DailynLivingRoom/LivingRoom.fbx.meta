@@ -1,0 +1,347 @@
+fileFormatVersion: 2
+guid: f95540849bdcc7d48b0bf4217816f0a9
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Abajurlambert3SG
+    second: {fileID: 2100000, guid: 61ee9298fb15803479a8a6dc090528ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Abajurlambert4SG
+    second: {fileID: 2100000, guid: 977f4678dfc022a4f9cfc443dd8f9f6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chairlambert4SG
+    second: {fileID: 2100000, guid: fa479552606b3434a82b042632fc2416, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chairlambert5SG
+    second: {fileID: 2100000, guid: 0e4ac9d67f2a815498f5498b8ba47506, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gradelambert1SG
+    second: {fileID: 2100000, guid: 1b8b694b82dd09440b1221b3988e473d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert10SG
+    second: {fileID: 2100000, guid: 12d9f05857b85e54bb2ae41840d1f7e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert11SG
+    second: {fileID: 2100000, guid: fdae8b004d14b554bbe1d6789b4926ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert12SG
+    second: {fileID: 2100000, guid: 4ea6839dc11273a4eb5c8db8a98d703e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert13SG
+    second: {fileID: 2100000, guid: 08fa397458a8cc043a5c5e8f462bc1a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert14SG
+    second: {fileID: 2100000, guid: 39cf101cfde1cd648ab41e012672e3c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert15SG
+    second: {fileID: 2100000, guid: 35a0d90c80e7eb344891d35a0c9d63b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert16SG
+    second: {fileID: 2100000, guid: 2d4c25bd8bf6e784385f862cdd3729f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert18SG
+    second: {fileID: 2100000, guid: f31385029746bb842b7497e12e77c876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert19SG
+    second: {fileID: 2100000, guid: af9733b2766aa0a44aeb8c19dd670ba0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert20SG
+    second: {fileID: 2100000, guid: 971f40cc13da8ca4ab181bbcd4090fc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert21SG
+    second: {fileID: 2100000, guid: 43565d5d96f0fde409f78a123d472bd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert22SG
+    second: {fileID: 2100000, guid: b88e95e235cdc744388885588dc88d67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert23SG
+    second: {fileID: 2100000, guid: 368b1dc2838e47d4e8b66ceeb44e1f0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert24SG
+    second: {fileID: 2100000, guid: 6ebfa518eda52fd4390b80dc2c5a5707, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert25SG
+    second: {fileID: 2100000, guid: 991348e472bbf3043a953d0386191499, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert26SG
+    second: {fileID: 2100000, guid: 8c13cfc979dd41d42ab4b75d9e6f1821, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert27SG
+    second: {fileID: 2100000, guid: 7c369961ef258474189236b463f80435, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert28SG
+    second: {fileID: 2100000, guid: ecd4d36fbe4375b468023c47ee47fa94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert29SG
+    second: {fileID: 2100000, guid: f2a4194746331f6469f4cd16d2613d8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert30SG
+    second: {fileID: 2100000, guid: a426fce4c58b3dc4683b96f64ce83f16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert31SG
+    second: {fileID: 2100000, guid: 15ce8e167a6ca2b4bb3d784556aba666, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert9SG
+    second: {fileID: 2100000, guid: 7eb173306f6c3ec41acd6f63364e1d98, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Abajurlambert3SG_baseColor
+    second: {fileID: 2800000, guid: dc167c67bc73323488aed0002ae20a0c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Abajurlambert4SG_baseColor
+    second: {fileID: 2800000, guid: df14f7e0f3951c74faae3a761c74c2b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Chairlambert4SG_baseColor
+    second: {fileID: 2800000, guid: ea5903d7d1bbe344994561f19b65d90f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Chairlambert5SG_baseColor
+    second: {fileID: 2800000, guid: a55790d9bf4fba441bd884ac505269ec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Gradelambert1SG_baseColor
+    second: {fileID: 2800000, guid: 7fe836b80d60dca4e85fe796bcfefdbd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert10SG_baseColor
+    second: {fileID: 2800000, guid: 7605e6d60eaad2e48878325980bb210e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert11SG_baseColor
+    second: {fileID: 2800000, guid: 3ab1cc7c0fba7fa42ab8e6425b08854c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert12SG_baseColor
+    second: {fileID: 2800000, guid: 5772b759461768f4399efc10a81945ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert13SG_baseColor
+    second: {fileID: 2800000, guid: 405c3d948417e9c49beb59fc4f8e2702, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert14SG_baseColor
+    second: {fileID: 2800000, guid: 132ff5331e4ef244b97bb17c1efddd8e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert15SG_baseColor
+    second: {fileID: 2800000, guid: 3a030395d379239419b764d63e4ade94, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert16SG_baseColor
+    second: {fileID: 2800000, guid: 09910d742b3d0b74daa06a0aa5f2b2b6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert19SG_baseColor
+    second: {fileID: 2800000, guid: 324b0cc42c392bf4c8bb172649086297, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert20SG_baseColor
+    second: {fileID: 2800000, guid: 80817f3a7c5439e4a8866542ee01966a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert21SG_baseColor
+    second: {fileID: 2800000, guid: 57ec23c401123b94a8f2d5516bdfc0fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert22SG_baseColor
+    second: {fileID: 2800000, guid: fe9ee781a19680145a6e05a043889ec7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert23SG_baseColor
+    second: {fileID: 2800000, guid: 065a31c234156e946b1ba116d326a15f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert24SG_baseColor
+    second: {fileID: 2800000, guid: 86f92da93a9e06640ae3cbaf5ebe8aa2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert25SG_baseColor
+    second: {fileID: 2800000, guid: f2a6dbeba58a1824d81c619f257d3c52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert26SG_baseColor
+    second: {fileID: 2800000, guid: 183f71be873b2534b95c02e1acdcf63e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert9SG_baseColor
+    second: {fileID: 2800000, guid: 958fc7861354820489b562cf05d8740a, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

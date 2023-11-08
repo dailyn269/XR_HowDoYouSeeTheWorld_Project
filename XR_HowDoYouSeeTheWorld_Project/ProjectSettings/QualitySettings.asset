@@ -266,14 +266,22 @@ QualitySettings:
     skinWeights: 4
     globalTextureMipmapLimit: 0
     textureMipmapLimitSettings: []
+<<<<<<< HEAD
     anisotropicTextures: 1
+=======
+    anisotropicTextures: 2
+>>>>>>> 08614dc9826a3150fac4402929fbdaf103ff90b2
     antiAliasing: 2
     softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
     useLegacyDetailDistribution: 1
+<<<<<<< HEAD
     vSyncCount: 1
+=======
+    vSyncCount: 0
+>>>>>>> 08614dc9826a3150fac4402929fbdaf103ff90b2
     realtimeGICPUUsage: 100
     lodBias: 2
     maximumLODLevel: 0

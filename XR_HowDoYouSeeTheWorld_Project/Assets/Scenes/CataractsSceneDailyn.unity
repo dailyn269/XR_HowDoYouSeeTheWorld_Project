@@ -663,7 +663,7 @@ GameObject:
   - component: {fileID: 1270555467}
   - component: {fileID: 1270555466}
   - component: {fileID: 1270555465}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PostProcessVolume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,8 +689,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 0.9097737}
-  m_Center: {x: 0, y: 0, z: 0.04511316}
+  m_Size: {x: 1, y: 1.5991468, z: 1.0094628}
+  m_Center: {x: 0, y: -0.29957342, z: -0.0047314167}
 --- !u!114 &1270555466
 MonoBehaviour:
   m_ObjectHideFlags: 0

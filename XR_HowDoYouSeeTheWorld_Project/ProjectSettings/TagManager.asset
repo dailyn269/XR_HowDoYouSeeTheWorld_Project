@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - CanvasTrigger
+  - CanvasTrigger2
+  - CanvasTrigger3
   layers:
   - Default
   - TransparentFX

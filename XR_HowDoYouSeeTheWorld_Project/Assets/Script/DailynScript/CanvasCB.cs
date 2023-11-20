@@ -18,13 +18,4 @@ public class CanvasCB : MonoBehaviour
             canvasToShow.enabled = true; // Enable the canvas when triggered by the collider
         }
     }
-
-    // Optionally, you can add an OnTriggerExit method to hide the canvas when exiting the trigger zone
-    // void OnTriggerExit(Collider other)
-    // {
-    //     if (other.CompareTag("Player"))
-    //     {
-    //         canvasToShow.enabled = false; // Disable the canvas when leaving the trigger
-    //     }
-    // }
 }

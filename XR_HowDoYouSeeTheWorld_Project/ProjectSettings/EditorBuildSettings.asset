@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/MuseumLikeExperience.unity
     guid: c9667b076f4173b40ba0b15e89510c32
   - enabled: 1
-    path: Assets/Scenes/CataractsSceneDailyn.unity
-    guid: 3996ec25d6b36d640a9c1708bc0a10ad
+    path: Assets/Scenes/CataractsSceneDailyn2.unity
+    guid: c60523683e805754da8a9fa9e0a69531
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 89fb1c094d800bd4086a45f7d9da75d7, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c92233a3d49902a4ba98008543951585, type: 2}

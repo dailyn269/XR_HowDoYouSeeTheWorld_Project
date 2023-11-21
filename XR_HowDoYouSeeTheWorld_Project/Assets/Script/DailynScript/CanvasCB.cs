@@ -13,9 +13,10 @@ public class CanvasCB : MonoBehaviour
     // OnTriggerEnter is called when another collider enters the trigger zone
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("CanvasTrigger")) // Check if the collider is the player (or a specific tag)
+        if (other.CompareTag("CanvasTrigger3")) // Check if the collider is the player (or a specific tag)
         {
             canvasToShow.enabled = true; // Enable the canvas when triggered by the collider
+            Debug.Log("Collider triggered!");
         }
     }
 }

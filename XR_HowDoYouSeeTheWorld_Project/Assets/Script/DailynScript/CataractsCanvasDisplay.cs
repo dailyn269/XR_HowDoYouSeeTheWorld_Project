@@ -18,7 +18,7 @@ public class CataractsCanvasDisplay : MonoBehaviour
     // OnTriggerEnter is called when another collider enters the trigger zone
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("CanvasTrigger") && !canvasDisplayed)
+        if (other.CompareTag("Player") && !canvasDisplayed)
         {
             canvasToShow.enabled = true; // Enable the canvas when triggered by the collider
             StartCoroutine(DisableCanvasAfterDuration());

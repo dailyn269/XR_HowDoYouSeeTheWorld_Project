@@ -13742,8 +13742,8 @@ Transform:
   m_GameObject: {fileID: 812089733}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.074, y: 0.882, z: -1.107}
-  m_LocalScale: {x: 0.05804147, y: 0.19093043, z: 0.065059714}
+  m_LocalPosition: {x: -2.831, y: 0.882, z: -1.107}
+  m_LocalScale: {x: 0.19450276, y: 0.27905414, z: 0.2180216}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -13763,9 +13763,9 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.49999997
   m_Height: 1.9999999
@@ -13778,12 +13778,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 812089733}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a07e547693b00f4e8e63e5828eac32e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: CataractsSceneDailyn
+  sceneName: CataractsSceneDailyn
 --- !u!1 &812203971
 GameObject:
   m_ObjectHideFlags: 0
@@ -19966,7 +19966,6 @@ GameObject:
   - component: {fileID: 1165821500}
   - component: {fileID: 1165890174}
   - component: {fileID: 1165989664}
-  - component: {fileID: 1171714033}
   m_Layer: 0
   m_Name: OVRPlayerController
   m_TagString: Player
@@ -20055,20 +20054,6 @@ Transform:
   - {fileID: 1171714046}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1171714033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1171354590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79c00d1359e6805428587488248cd2e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvasToShow: {fileID: 2085341960}
-  displayDuration: 10
 --- !u!4 &1171714036
 Transform:
   m_ObjectHideFlags: 0

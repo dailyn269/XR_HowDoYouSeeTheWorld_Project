@@ -8,6 +8,8 @@ TagManager:
   - CanvasTrigger2
   - CanvasTrigger3
   - CatDoorKnob
+  - GlaDoorNob
+  - ColorDoorKnob
   layers:
   - Default
   - TransparentFX

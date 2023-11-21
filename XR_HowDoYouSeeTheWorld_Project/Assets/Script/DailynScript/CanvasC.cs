@@ -1,8 +1,11 @@
+/*
 using UnityEngine;
+using System.Collections;
 
 public class CanvasC : MonoBehaviour
 {
     public Canvas canvasToShow; // Reference to the Canvas you want to display
+    public float displayDuration = 10f; // Duration to display the canvas
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +19,52 @@ public class CanvasC : MonoBehaviour
         if (other.CompareTag("CanvasTrigger")) // Check if the collider is the player (or a specific tag)
         {
             canvasToShow.enabled = true; // Enable the canvas when triggered by the collider
+            StartCoroutine(DisableCanvasAfterDuration());
         }
+    }
+
+    IEnumerator DisableCanvasAfterDuration()
+    {
+        yield return new WaitForSeconds(displayDuration);
+
+        // Disable the canvas after the specified duration
+        canvasToShow.enabled = false;
+    }
+}
+*/
+
+using UnityEngine;
+using System.Collections;
+
+public class CanvasC : MonoBehaviour
+{
+    public Canvas canvasToShow; // Reference to the Canvas you want to display
+    public float displayDuration = 10f; // Duration to display the canvas
+
+    bool canvasDisplayed = false; // Flag to track if canvas has been displayed
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        canvasToShow.enabled = false; // Hide the canvas at the start
+    }
+
+    // OnTriggerEnter is called when another collider enters the trigger zone
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("CanvasTrigger") && !canvasDisplayed)
+        {
+            canvasToShow.enabled = true; // Enable the canvas when triggered by the collider
+            StartCoroutine(DisableCanvasAfterDuration());
+            canvasDisplayed = true; // Set flag to true when canvas is displayed
+        }
+    }
+
+    IEnumerator DisableCanvasAfterDuration()
+    {
+        yield return new WaitForSeconds(displayDuration);
+
+        // Disable the canvas after the specified duration
+        canvasToShow.enabled = false;
     }
 }

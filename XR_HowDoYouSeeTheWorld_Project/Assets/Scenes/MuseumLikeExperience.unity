@@ -38475,7 +38475,7 @@ PositionConstraint:
   serializedVersion: 2
   m_Weight: 1
   m_TranslationAtRest: {x: 0, y: 0, z: 0}
-  m_TranslationOffset: {x: 48.448727, y: -0.5537057, z: -0.000006591685}
+  m_TranslationOffset: {x: 48.448727, y: -0.5536917, z: 0.00000762045}
   m_AffectTranslationX: 1
   m_AffectTranslationY: 1
   m_AffectTranslationZ: 1
@@ -38963,7 +38963,7 @@ PositionConstraint:
   serializedVersion: 2
   m_Weight: 0.5
   m_TranslationAtRest: {x: 0.000030517578, y: 0, z: 0}
-  m_TranslationOffset: {x: 84.211876, y: 634.8398, z: 502.44534}
+  m_TranslationOffset: {x: 84.211876, y: 795.72095, z: 630.6502}
   m_AffectTranslationX: 1
   m_AffectTranslationY: 1
   m_AffectTranslationZ: 1
@@ -39215,7 +39215,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1042111531966830287
 GameObject:
   m_ObjectHideFlags: 0
@@ -45860,7 +45860,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What do you want to experience next?
+  m_text: Learn about what you will experience..
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -60756,7 +60756,7 @@ RectTransform:
   m_GameObject: {fileID: 4157991157842917499}
   m_LocalRotation: {x: 0.11284472, y: -0, z: -0, w: 0.9936127}
   m_LocalPosition: {x: 0, y: 0, z: 1.694}
-  m_LocalScale: {x: 0.0012925159, y: 0.0012925159, z: 0.0012925159}
+  m_LocalScale: {x: 0.0010297603, y: 0.0010297603, z: 0.0010297603}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 384336741749228282}

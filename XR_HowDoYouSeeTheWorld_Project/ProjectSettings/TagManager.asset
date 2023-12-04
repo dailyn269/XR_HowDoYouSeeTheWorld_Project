@@ -10,6 +10,9 @@ TagManager:
   - CatDoorKnob
   - GlaDoorNob
   - ColorDoorKnob
+  - RoomLight
+  - SamplesInfoPanel
+  - Hands
   layers:
   - Default
   - TransparentFX

@@ -5,16 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MuseumLikeExperience.unity
     guid: c9667b076f4173b40ba0b15e89510c32
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/CataractsSceneDailyn2.unity
     guid: c60523683e805754da8a9fa9e0a69531
   - enabled: 1
     path: Assets/Scenes/KitchenColorBlindness.unity
     guid: aff3ecb686ee14162aa49b7f2f2c2d5c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Helen.unity
     guid: 21554ba01f485504392b5638c7541723
   - enabled: 0
@@ -22,7 +22,7 @@ EditorBuildSettings:
     guid: 18df261925add25459c4ecec4ad84a81
   - enabled: 1
     path: Assets/Scenes/CataractsDebrief.unity
-    guid: aa04d5235f950574d97229c5697b8241
+    guid: d83f8ccc1ce64a34f8d7cd720847f9a3
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 89fb1c094d800bd4086a45f7d9da75d7, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c92233a3d49902a4ba98008543951585, type: 2}

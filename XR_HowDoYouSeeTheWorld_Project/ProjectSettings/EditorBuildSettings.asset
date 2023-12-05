@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Helen.unity
     guid: 21554ba01f485504392b5638c7541723
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/FinalScene.unity
     guid: 18df261925add25459c4ecec4ad84a81
   - enabled: 1

@@ -16726,6 +16726,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: KitchenColorBlindness
+  screenFade: {fileID: 1165941060}
+  fadeOutDelay: 2
+  fadeInDelay: 1
 --- !u!65 &660762927
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43865,6 +43868,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: CataractsSceneDailyn2
+  screenFade: {fileID: 1165941060}
+  fadeOutDelay: 2
+  fadeInDelay: 1
 --- !u!65 &1593386621
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49324,6 +49330,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: MuseumLikeExperience
+  screenFade: {fileID: 1165941060}
+  fadeOutDelay: 2
+  fadeInDelay: 1
 --- !u!65 &1786316950
 BoxCollider:
   m_ObjectHideFlags: 0

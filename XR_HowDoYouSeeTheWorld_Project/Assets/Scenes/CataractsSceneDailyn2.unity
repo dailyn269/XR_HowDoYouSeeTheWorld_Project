@@ -9667,7 +9667,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &312487680
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46532,8 +46532,8 @@ MonoBehaviour:
   m_text: "1) Turn on the TV by \"pressing\" the RED button on the table \n\tA) What
     is the text inside the red box on the screen after the news reporter says, 'Let
     me show you what's going on'?\"\n\n2)On the table\n\tB)What genre of music is
-    represented by the magazine atop the table?\n\n3) On the small coffee table,
-    switch on the lamp by \"pressing\" the RED button.\n\tA) What wrods are printed
+    represented by the magazine on top the table?\n\n3) On the small coffee table,
+    switch on the lamp by \"pressing\" the RED button.\n\tA) What words are printed
     on the coffee cup?\n\tB) Can you make out what is written in the book beside
     the pencil? \n\n"
   m_isRightToLeft: 0

@@ -46531,7 +46531,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497184182}
   m_LocalRotation: {x: -0.03956816, y: -0, z: -0, w: 0.9992169}
-  m_LocalPosition: {x: 0, y: 0, z: -5.02}
+  m_LocalPosition: {x: 0, y: 0, z: -2.13}
   m_LocalScale: {x: 0.94484186, y: 0.94484186, z: 0.94484186}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46539,7 +46539,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -4.535, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.03, y: 6.13}
+  m_AnchoredPosition: {x: 0.03, y: 2.44}
   m_SizeDelta: {x: 5, y: 3.615}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1497184184
@@ -46562,11 +46562,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1) Turn on the TV by \"Pressing\" the RED button on the table \n\tA) What
-    doest the red box on the screen say ?\n\n2)On the table\n\tB)What is the genre
-    of music of the magazine on top of the table?\n\n3) On the small coffee table,
-    turn on the lab by \"pressing\" the button\n\tA) What are the letters printed
-    on the coffee cup\n\tB) Can you read what is on the book by the pencil? \n\n"
+  m_text: "1) Turn on the TV by \"pressing\" the RED button on the table \n\tA) What
+    is the text inside the red box on the screen after the news reporter says, 'Let
+    me show you what's going on'?\"\n\n2)On the table\n\tB)What genre of music is
+    represented by the magazine atop the table?\n\n3) On the small coffee table,
+    switch on the lamp by \"pressing\" the RED button.\n\tA) What wrods are printed
+    on the coffee cup?\n\tB) Can you make out what is written in the book beside
+    the pencil? \n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -69143,6 +69145,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1874993938037577280}
+  - component: {fileID: 1874993938037577281}
   m_Layer: 0
   m_Name: Magazines
   m_TagString: Untagged
@@ -69765,6 +69768,20 @@ Transform:
   - {fileID: 2066703573931443758}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -180, y: -155.519, z: 0}
+--- !u!114 &1874993938037577281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247076679244696826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eb91aca574974145ac3ca1834ed2114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalTransform: {fileID: 1874993938037577280}
+  specifiedTag: Floor
 --- !u!1 &1898467435309421571
 GameObject:
   m_ObjectHideFlags: 0
@@ -70843,6 +70860,7 @@ GameObject:
   - component: {fileID: 6907939056825173772}
   - component: {fileID: 6907939056825173771}
   - component: {fileID: 6907939056825173770}
+  - component: {fileID: 6907939056825173773}
   m_Layer: 0
   m_Name: CoffeeMug
   m_TagString: Untagged
@@ -73417,7 +73435,7 @@ Transform:
   m_GameObject: {fileID: 5425014950312976345}
   serializedVersion: 2
   m_LocalRotation: {x: 0.000000005587935, y: 0.00000026822087, z: -0.9986026, w: -0.052847125}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -74201,13 +74219,13 @@ GameObject:
   - component: {fileID: 6899538579777419762}
   m_Layer: 0
   m_Name: Object_6
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &6899538579777419762
-BoxCollider:
+--- !u!64 &6899538579777419762
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -74224,9 +74242,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.12575777, y: 0, z: 0.10710131}
-  m_Center: {x: -0.06630326, y: -0.00197397, z: -0.08317775}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3288194047611950038, guid: f95540849bdcc7d48b0bf4217816f0a9, type: 3}
 --- !u!33 &6905780973141073462
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -74320,6 +74339,28 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 0}
   _maxGrabPoints: -1
+--- !u!64 &6907939056825173773
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3150817414415155638}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!33 &6918779321128749129
 MeshFilter:
   m_ObjectHideFlags: 0

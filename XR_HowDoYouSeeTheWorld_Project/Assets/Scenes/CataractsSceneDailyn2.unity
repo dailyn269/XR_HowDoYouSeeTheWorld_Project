@@ -69780,8 +69780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eb91aca574974145ac3ca1834ed2114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalTransform: {fileID: 1874993938037577280}
-  specifiedTag: Floor
+  resetPointY: -5
 --- !u!1 &1898467435309421571
 GameObject:
   m_ObjectHideFlags: 0
@@ -72698,6 +72697,7 @@ GameObject:
   - component: {fileID: 6209816412940377134}
   - component: {fileID: 6209816412940377133}
   - component: {fileID: 6209816412940377132}
+  - component: {fileID: 6209816412940377136}
   m_Layer: 0
   m_Name: Magazines_Magazines_mat_0
   m_TagString: Untagged
@@ -73532,6 +73532,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 9029721509324320139, guid: 0f58c36446b7c0c4e97becbaebf71b51, type: 3}
+--- !u!114 &6209816412940377136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5425014950312976345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eb91aca574974145ac3ca1834ed2114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetPointY: -2
 --- !u!4 &6220063266917877034
 Transform:
   m_ObjectHideFlags: 0
@@ -74180,6 +74193,7 @@ GameObject:
   - component: {fileID: 3482119399583183789}
   - component: {fileID: 8653665272387270591}
   - component: {fileID: 8653665272387270592}
+  - component: {fileID: 8653665272387270593}
   m_Layer: 0
   m_Name: Cylinder023_low_On table_0
   m_TagString: Untagged
@@ -77065,6 +77079,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7324271957702776298, guid: 411c5e77a1c111d4a9fb21a697bb862c, type: 3}
+--- !u!114 &8653665272387270593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6880286945339322243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eb91aca574974145ac3ca1834ed2114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetPointY: -0.5
 --- !u!1 &8656465507735603265
 GameObject:
   m_ObjectHideFlags: 0

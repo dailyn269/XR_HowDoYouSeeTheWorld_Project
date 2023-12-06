@@ -8,6 +8,7 @@ public class handlecontrol : MonoBehaviour
     // Start is called before the first frame update
     public GameObject[] turnon;
     public GameObject[] turnoff;
+    public GameObject[] turnoffwhenleave;
     void Start()
     {
         
@@ -21,6 +22,14 @@ public class handlecontrol : MonoBehaviour
         foreach (GameObject y in turnon)
         {
             y.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        foreach (GameObject y in turnoffwhenleave)
+        {
+            y.SetActive(false);
         }
     }
     // Update is called once per frame

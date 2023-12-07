@@ -18464,7 +18464,7 @@ GameObject:
   - component: {fileID: 972763050}
   m_Layer: 0
   m_Name: ControllerGrabLocation
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25752,7 +25752,7 @@ GameObject:
   - component: {fileID: 1360720232}
   m_Layer: 0
   m_Name: ControllerGrabLocation
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

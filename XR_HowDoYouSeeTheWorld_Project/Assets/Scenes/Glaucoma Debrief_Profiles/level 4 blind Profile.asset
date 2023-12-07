@@ -39,7 +39,7 @@ MonoBehaviour:
     value: 0
   mask:
     overrideState: 1
-    value: {fileID: 2800000, guid: dc3ecef0d8dce85408e8bd5c88fd1ea6, type: 3}
+    value: {fileID: 2800000, guid: e8e42d4bf8aa34944b73436662ddd884, type: 3}
     defaultState: 1
   opacity:
     overrideState: 0

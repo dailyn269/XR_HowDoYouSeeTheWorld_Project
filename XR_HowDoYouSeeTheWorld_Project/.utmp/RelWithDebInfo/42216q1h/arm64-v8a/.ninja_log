@@ -1,0 +1,3 @@
+# ninja log v5
+0	107	1701961256083523235	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	e07185c851fd97ca
+107	202	1701961256158671969	/Users/henrywu/Documents/CMU/2023Fall/Interactive Extended Reality/project/XR_HowDoYouSeeTheWorld_Project/XR_HowDoYouSeeTheWorld_Project/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/42216q1h/obj/arm64-v8a/libswappywrapper.so	581f20c3539108a2

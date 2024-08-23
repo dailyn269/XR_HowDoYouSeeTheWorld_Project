@@ -1,7 +1,6 @@
 # How do You See The World - An Immersive VR Experience 
 
-[![YouTube](https://www.youtube.com/watch?v=qpcqHmuG72w)
-
+[![YouTube](http://i.ytimg.com/vi/qpcqHmuG72w/hqdefault.jpg)](https://www.youtube.com/watch?v=qpcqHmuG72w)
 
 Our project, undertaken by Dailyn Despradel in collaboration with Muzhe Wu and Zixin Yang, aimed to enhance understanding of visual impairments through immersive simulation. We designed an interactive learning experience to educate those with normal vision about the challenges faced by individuals with cataracts, glaucoma, and color blindness. Participants navigated through simulated environments—living room, kitchen, and basement—each designed to replicate the visual obstacles associated with these conditions. Tasks in these environments were carefully crafted based on research to offer a genuine experience of the difficulties encountered in daily life due to these impairments.
 
